@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Menu</title>
+    <script type="module" src="index.bundle.js"></script>
+</head>
+<body>
+    <h1 id="user-greeting">Loading...</h1>
+
+    <h2>Song List</h2>
+    <ul id="song-list">
+        <!-- Song list will be populated here dynamically -->
+    </ul>
+
+    <h3>Add New Song</h3>
+    <form id="add-song-form">
+        <input type="text" id="title" placeholder="Song Title" required>
+        <input type="text" id="artist" placeholder="Artist Name" required>
+        <input type="number" id="year" placeholder="Release Year" required>
+        <input type="number" id="rating" placeholder="Rating (1-5)" required>
+        <button type="submit">Add Song</button>
+    </form>
+</body>
+</html>
